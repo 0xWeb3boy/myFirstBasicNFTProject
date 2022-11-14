@@ -1,10 +1,10 @@
 {
-  "name": "PUG",
-  "description": "An adorable PUG pup!",
+  "name": "Mermaid",
+  "description": "A hand drawn art by an Indian artist Abhilekh Mukherjee",
   "image": "https://ipfs.io/ipfs/QmTqGTEPZyukPaca7Rvg3oT7SjRQ1b6TtpzoTQmqGZzvgw",
   "attributes": [
     {
-      "trait_type": "cuteness",
+      "trait_type": "Blue",
       "value": 100
     }
   ]

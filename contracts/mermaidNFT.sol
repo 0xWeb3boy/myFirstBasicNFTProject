@@ -5,7 +5,7 @@ pragma solidity 0.8.7;
 
 contract MermaidNFT is ERC721, Ownable {
     string public constant TOKEN_URI =
-        "https://ipfs.io/ipfs/bafybeicrt4onksymn4s6x2uetkddkr2iy3zfvzbel7ryn3xqddv7o3v7za?filename=QmTqGTEPZyukPaca7Rvg3oT7SjRQ1b6TtpzoTQmqGZzvgw.json";
+        "https://gateway.pinata.cloud/ipfs/QmQxiAF9SynE1Au2ij8b7oPNCng5NJkqMkaSWvuuuXYrA7";
 
     // State Variables
     uint256 private s_tokenCounter;
