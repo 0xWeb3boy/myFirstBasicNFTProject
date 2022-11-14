@@ -9,7 +9,7 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
   log("----------------------------------------");
 
   const args = [];
-  const myFirstNFT = await deploy("MyFirstNFT", {
+  const mermaidNft = await deploy("MermaidNFT", {
     from: deployer,
     args: args,
     log: true,
@@ -18,11 +18,11 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
 
   if (
     !developmentChains.includes(network.name) &&
-    process.env.POLYGONSCAN_API_KEY
+    process.env.ETHERSCAN_API_KEY
   ) {
     log("verifying.....");
-    await verify(myFirstNFT.address, args);
+    await verify(mermaidNft.address, args);
   }
 };
 
-module.exports.tags = ["all", "MyFirstNFT", "main"];
+module.exports.tags = ["all", "MermaidNFT", "main"];
