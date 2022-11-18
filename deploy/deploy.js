@@ -9,7 +9,7 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
   log("----------------------------------------");
 
   const args = [];
-  const mermaidNft = await deploy("MermaidNFT", {
+  const mermaidNft = await deploy("mermaidNft", {
     from: deployer,
     args: args,
     log: true,

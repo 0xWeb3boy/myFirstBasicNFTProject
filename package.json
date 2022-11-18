@@ -1,9 +1,13 @@
 {
   "dependencies": {
     "@alch/alchemy-web3": "^1.4.7",
+    "@chainlink/contracts": "^0.5.1",
+    "@pinata/sdk": "^2.1.0",
     "deploy": "^1.0.3",
+    "fs": "^0.0.1-security",
     "hardhat": "^2.12.2",
     "hardhat-waffle": "^0.0.1-security",
+    "path": "^0.12.7",
     "run": "^1.4.0",
     "waffle": "^0.0.4"
   },
